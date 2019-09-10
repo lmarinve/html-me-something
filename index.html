@@ -5,36 +5,38 @@
    <meta name="description" content="">
    <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>HandyMia</title>
-  <!--  <link rel="stylesheet" href="css/normalize.css">-->
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/normalize.min.css">
   <link rel="stylesheet" href="css/styles.css">
   <meta name="theme-color" content="#fafafa">
 </head>
 <body class="loading">
-  <div>
-    <a href="#default"><img src="images/handymia.jpg" alt="Handymia" width="100" height="100"></a>
-    <div>
+  <div class="header">
+    <a href="#"><img src="images/handymia.jpg" alt="Handymia" width="100" height="100"></a>
+    <div class="header-right">
       <a href="#home">Home</a>
       <a href="#contact">Contact</a>
       <a href="#about">About us</a>
     </div>
   </div>
   <div>
-    <a href="#home">Home</a>
-    <div>
-        <button>Projects
-          <i></i>
+  <div class="topnav" id="myTopnav">
+    <a href="#home" class="active">Home</a>
+    <div class="dropdown">
+        <button class="dropbtn">Projects
+          <i class="fa fa-caret-down"></i>
         </button>
-        <div>
+        <div class="dropdown-content">
           <a href="#pergola">Pergolas</a>
           <a href="#tv-mount">TV Mounting</a>
           <a href="#light">Light Fixtures and Fans</a>
         </div>
     </div>
-    <div>
-      <button>Services
-        <i></i>
+    <div class="dropdown">
+      <button class="dropbtn">Services
+        <i class="fa fa-caret-down"></i>
       </button>
-      <div>
+      <div class="dropdown-content">
         <a href="#handyman">Handyman</a>
         <a href="#plumbing">Plumbing</a>
         <a href="#electric">Electric</a>
@@ -43,11 +45,11 @@
         <a href="#transport">Transport</a>
       </div>
     </div>
-    <div>
-      <button>Remodeling
-        <i></i>
+    <div class="dropdown">
+      <button class="dropbtn">Remodeling
+        <i class="fa fa-caret-down"></i>
       </button>
-      <div>
+      <div class="dropdown-content">
         <a href="#bathroom">Bathroom</a>
         <a href="#kitchen">Kitchen</a>
         <a href="#roofing">Roofing</a>
